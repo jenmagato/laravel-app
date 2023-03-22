@@ -35,11 +35,15 @@ Also, create dynamic routing to accept a post request that responds with the bod
    ```sh
    composer install
    ```
-5. Serve the project.
+5. Create app key
+   ```sh
+   php artisan key:generate
+   ```
+6. Serve the project.
    ```sh
    php artisan serve
    ```
-6. Clear cache if needed
+7. Clear cache if needed
    ```sh
    php artisan config:cache
    php artisan route:clear

@@ -33,7 +33,7 @@ Also, create dynamic routing to accept a post request that responds with the bod
    ```
 4. Run Composer Install.
    ```sh
-   composer install
+   composer install or composer install --ignore-platform-reqs
    ```
 5. Create app key
    ```sh

@@ -14,7 +14,8 @@ class PostController extends Controller
         $url = url($slug);
         $agent = $request->header('User-Agent');
         $host = $request->getHost();
-        $body = $request->getContent();
+        // $body = $request->getContent();
+        $body = $request->all();
 
         $data = [
             'URL' => $url,
